@@ -25,7 +25,7 @@ export default function Home() {
     <Layout>
       <div className="pt-12">
         <h1 className="text-5xl mb-8">{siteConfig.title}</h1>
-        <main className="grid md:gap-6 mt-10 md:grid-cols-2 w-full my-12">
+        <main className="grid md:gap-6 mt-10 md:grid-cols-1 w-full my-12">
           <h1>🤖なんでも聞いてください🤖</h1>
 
           <label

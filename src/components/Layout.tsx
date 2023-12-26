@@ -5,8 +5,8 @@ import Navbar from './Navbar';
 
 const Layout: FC<LayoutProps> = ({ children }) => {
   return (
-    <div className="relative overflow-hidden">
-      <div className="flex flex-col items-center max-w-2xl w-full mx-auto">
+    <div className="h-screen relative overflow-hidden">
+      <div className="flex flex-col items-center justify-between max-w-3xl w-full min-h-full h-auto mx-auto">
         <Navbar />
         <main className="w-full pb-12 px-4">{children}</main>
         <Footer />
