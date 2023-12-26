@@ -1,7 +1,7 @@
 import { siteConfig } from '@/const/site.config';
 import Image from 'next/image';
 import Link from 'next/link';
-import ArchitectImage from '../asset/architect.png';
+import ArchitectImage from '../asset/archi.png';
 import Layout from '../components/Layout';
 
 export default function About() {

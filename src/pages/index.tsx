@@ -53,11 +53,8 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <label
-            htmlFor="message"
-            className="block text-sm font-medium text-gray-900"
-          >
-            ACSD_CultureDeckで知りたいことを入力してください
+          <label htmlFor="message" className="block font-medium text-gray-900">
+            🔸ACSD_CultureDeckで知りたいことを入力してください
           </label>
           <textarea
             id="message"
