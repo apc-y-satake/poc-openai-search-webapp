@@ -1,5 +1,6 @@
 import { siteConfig } from '@/const/site.config';
 import axios from 'axios';
+import Link from 'next/link';
 import { useState } from 'react';
 import Layout from '../components/Layout';
 
@@ -26,13 +27,37 @@ export default function Home() {
       <div className="pt-12">
         <h1 className="text-5xl mb-8">{siteConfig.title}</h1>
         <main className="grid md:gap-6 mt-10 md:grid-cols-1 w-full my-12">
-          <h1>🤖なんでも聞いてください🤖</h1>
-
+          <div>
+            <div className="mb-5">
+              <p>🔸概要</p>
+              <p>
+                このサイトは、Azure OpenAI + LangChain + AI
+                Searchを使った回答を返すサイトです。
+                <br />
+                学習させた資料はACSDのCultureDeckです。
+              </p>
+            </div>
+            <div className="mb-5">
+              <p>🔸資料</p>
+              <Link
+                className="text-blue-500 hover:text-blue-700"
+                href="https://www.ap-com.co.jp/pdf/ACSD_CultureDeck_20230901.pdf"
+              >
+                ACSD_CultureDeck_20230901.pdf
+              </Link>
+            </div>
+            <div className="mb-5">
+              <p>🔸アーキテクチャ</p>
+              <Link className="text-blue-500 hover:text-blue-700" href="/about">
+                About Architect
+              </Link>
+            </div>
+          </div>
           <label
             htmlFor="message"
-            className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            className="block text-sm font-medium text-gray-900"
           >
-            Your message
+            ACSD_CultureDeckで知りたいことを入力してください
           </label>
           <textarea
             id="message"
@@ -47,7 +72,7 @@ export default function Home() {
               type="button"
               className="my-5 py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200"
             >
-              Azure OpenAI + LangChain + AI Searchを使った回答
+              Answer
             </button>
           </div>
           {isLoading ? (
@@ -75,7 +100,7 @@ export default function Home() {
               {content === '' ? (
                 <div></div>
               ) : (
-                <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100">
+                <div className="block w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100">
                   <p className="font-normal text-gray-700">{content}</p>
                 </div>
               )}
