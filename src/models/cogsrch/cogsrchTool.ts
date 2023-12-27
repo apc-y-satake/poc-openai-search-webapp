@@ -9,7 +9,7 @@ export class CogsrchTool extends Tool {
   エンタープライズ企業のDX内製化を推進しております。
   内製化推進のため、Platform EngineeringやAIを活用し、
   セルフサービス化されたSIを確立し提供することで、
-  日本企業のデジタル化を加㏿させて参ります
+  日本企業のデジタル化を加速させて参ります
   インプットは検索クエリ、アウトプットは検索結果です。
   `;
   constructor() {
