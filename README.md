@@ -17,7 +17,11 @@
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fapc-y-satake%2Fpoc-openai-search-webapp%2Fmain%2Farm%2Ftemplate.json)
 
-2 つのリソースが作成されます。
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fapc-y-satake%2Fpoc-openai-search-webapp%2Fmain%2Farm%2Ftemplate.json" target="_blank">
+  <img src="https://aka.ms/deploytoazurebutton"/>
+</a>
+
+以下、2 つのリソースが作成されます。
 
 - Azure OpenAI Service
 - Azure AI Search
