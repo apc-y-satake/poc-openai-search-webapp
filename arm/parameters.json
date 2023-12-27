@@ -1,15 +1,12 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
-    "contentVersion": "1.0.0.0",
-    "parameters": {
-        "staticSites_poc_aisearch_webapps_name": {
-            "value": null
-        },
-        "searchServices_poc_aisearch_srch_name": {
-            "value": null
-        },
-        "accounts_poc_aisearch_ai_name": {
-            "value": null
-        }
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "searchServices_poc_aisearch_srch_name": {
+      "value": null
+    },
+    "accounts_poc_aisearch_ai_service_name": {
+      "value": null
     }
+  }
 }
