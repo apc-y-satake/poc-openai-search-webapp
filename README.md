@@ -15,7 +15,7 @@
 1. 本 GitHub のリポジトリをご自身の GitHub アカウントに Fork します。
 2. 以下のボタンより、Azure へリソースを Deploy します。
 
-![Deploy to Azure](https://aka.ms/deploytoazurebutton)
+![Deploy to Azure](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fapc-y-satake%2Fpoc-openai-search-webapp%2Fmain%2Farm%2Ftemplate.json)
 
 3 つのリソースが作成されます。
 
